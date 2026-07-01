@@ -1,0 +1,10 @@
+file_name,cardiac_label,spot_label,stand_label,half_label,implant_label,laterality
+sample_1.png,1,0,0,0,0,R
+sample_2.png,0,0,0,0,1,R
+sample_3.png,0,0,1,0,0,L
+sample_4.png,0,0,1,0,0,L
+sample_5.png,0,1,0,0,0,R
+sample_6.png,0,0,0,1,0,R
+sample_7.png,0,0,0,0,0,L
+sample_8.png,0,0,0,0,0,R
+sample_9.png,0,0,0,0,0,L

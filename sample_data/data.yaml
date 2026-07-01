@@ -1,0 +1,9 @@
+path: /sample_data
+train: 
+test: 
+val: 
+
+names:
+  0: Skin marker
+  1: Post-biopsy clip
+  2: Linear marker
