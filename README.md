@@ -7,7 +7,7 @@ This repository is designed to provide an open-source solution for curating mamm
 ![Types of mammography artifacts identified by MammoClean](images/figure1c.png)
 
 ### Results
-Performance on the internal test set and EMBED dataset for identifying each type of scan abnormality is described below.
+Performance on the internal test dataset for identifying each type of scan abnormality is described below.
 | Characteristic         | Precision | Recall |
 |------------------------|-----------|--------|
 | Breast implants        | 0.387     | 0.935  |
