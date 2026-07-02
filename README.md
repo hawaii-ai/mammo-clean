@@ -28,12 +28,11 @@ python setup.py install
 ```
 ## Demo
 - Demo scripts are provided in the outermost folder.
-- Model checkpoint files (as used for results reported in the paper) can be downloaded from [here](https://drive.google.com/drive/folders/18yLjpbGXGxbmppBxhu9nymLwzgQKcl3B?usp=sharing).
-- Model checkpoint files for the artifact-level detection and spot compression models can be donwloaded from here. 
+- Model checkpoint files (as used for results reported in the paper) for the artifact-level detection and spot compression models can be downloaded from [here](https://drive.google.com/drive/folders/18yLjpbGXGxbmppBxhu9nymLwzgQKcl3B?usp=sharing).
 - A demo dataset is provided purely to validate code functionality, the dataset is not representative of the complete dataset used to develop or evaluate pipeline performance in the manuscript. 
 - To validate code functionality, run sample code in notebook corresponding to desired functionality (e.g. for illustrative examples of flagging and cropping procedures)
     - `artifact_model_demo.ipynb` for sample notebook showing detection of skin markers, biopsy clips, and linear skin markers using the pretrained deep learning model.  
     - `cv_method_demo.ipynb` for sample notebook showing classification of breast implants, cardiac devices, half compression paddles, and standard compression paddles with traditional CV methods.
     - `spot_comp_model_demo.ipynb` for sample notebook showing classification of spot compression paddles using the pretrained deep learning model.
-    - `cleaned_embed_new_labels.csv` additional labels on a subset of the dataset from the [prior work]([https://github.com/biomedia-mira/mammo-artifacts]) used for performance evaluation on the EMBED dataset, with compression sub-labels.
+    - `cleaned_embed_new_labels.csv` additional labels on a subset of the dataset from the [prior work](https://github.com/biomedia-mira/mammo-artifacts) used for performance evaluation on the EMBED dataset, with compression sub-labels.
     - `sample_dataset.csv` labels, metadata, and filenames for the provided sample data. 
