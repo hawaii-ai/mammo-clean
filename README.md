@@ -34,5 +34,5 @@ python setup.py install
     - `artifact_model_demo.ipynb` for sample notebook showing detection of skin markers, biopsy clips, and linear skin markers using the pretrained deep learning model.  
     - `cv_method_demo.ipynb` for sample notebook showing classification of breast implants, cardiac devices, half compression paddles, and standard compression paddles with traditional CV methods.
     - `spot_comp_model_demo.ipynb` for sample notebook showing classification of spot compression paddles using the pretrained deep learning model.
-    - `cleaned_embed_new_labels.csv` additional labels on a subset of the dataset from the [prior work](https://github.com/biomedia-mira/mammo-artifacts) used for performance evaluation on the EMBED dataset, with compression sub-labels.
+    - `cleaned_embed_new_labels.csv` additional labels on a subset of the dataset from the [prior work](https://github.com/biomedia-mira/mammo-artifacts) used for performance evaluation on the EMBED dataset, with compression sub-labels. All credit for initial label curation goes to Schueppert and team. 
     - `sample_dataset.csv` labels, metadata, and filenames for the provided sample data. 
