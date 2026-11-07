@@ -7,7 +7,7 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-CLASS_NAMES = {0: "Skin", 1: "Clip", 2: "Wire"}
+CLASS_NAMES = {0: "Skin", 1: "Tissue", 2: "Scar"}
 
 
 def load_yolo_class_ids(label_path: Path) -> list[int]:
